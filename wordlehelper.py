@@ -1,6 +1,6 @@
 def get_wordle_words() -> list[str]:
     """Reads the wordle words CSV file, and returns an all lowercase list of words."""
-    file_path = "filtered-wordle-words.csv"
+    file_path = "words.csv"
     data = ""
     with open(file_path, "r") as file:
         data = (file.read()).lower()
